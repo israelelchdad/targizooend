@@ -1,0 +1,11 @@
+li{
+    margin:1%;
+}
+h1{
+   text-align: center;
+}
+.bgdiv{
+    display: flex;
+    justify-content:space-around;
+
+}

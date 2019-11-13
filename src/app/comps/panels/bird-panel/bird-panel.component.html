@@ -1,0 +1,26 @@
+     <h1>welcom to the panel of birds</h1>
+    
+    
+
+<div class="bgdiv">
+  
+        
+            <div>
+              <h2>our list birds</h2>
+               <ul>
+                <!-- <li>{{birdsev.birds[1].name}}</li> -->
+
+                <li *ngFor= "let b of birdsev.birds">{{b.name}}</li>
+            </ul>
+            </div>
+            
+            <div>
+              
+                <app-bird-card></app-bird-card>
+
+            </div>
+
+
+
+    
+</div>

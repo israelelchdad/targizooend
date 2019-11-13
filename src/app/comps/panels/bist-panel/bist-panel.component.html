@@ -1,0 +1,16 @@
+<h1>welcom to the panel of bists</h1>
+<div class="bgdiv">
+   <div>
+       <h2>our list</h2>
+
+       <ul>
+
+        <li *ngFor= "let s of bistsrvc.beasts" >{{s.name}}</li>
+       </ul>
+
+    </div>
+    <div>
+        <app-bists-card></app-bists-card>
+    </div>
+
+</div>
